@@ -1,0 +1,20 @@
+.card {
+  background-color: #ffffff; /* 背景色 */
+  padding: 8px; /* 内側全体の余白 */
+}
+
+.card__title {
+  color: #282828; /* 文字色 */
+  font-size: 14px; /* 文字サイズ */
+}
+
+.card__description {
+  color: #282828; /* 文字色 */
+  font-size: 12px; /* 文字サイズ */
+}
+
+.card__img-top {
+  width: 288px; /* 横サイズ */
+  height: 182px; /* 高さ */
+  margin-bottom: 16px; /* 下の余白 */
+}
