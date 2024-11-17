@@ -91,3 +91,17 @@ footer {
     display: none; /* 説明を非表示 */
   }
 }
+
+/* ベンダープレフィックス（ブラウザ間の互換性向上） */
+header,
+footer,
+.card {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Safari/古いChrome */
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 古いFirefox */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 標準 */
+}
+
+.card__img-top {
+  -webkit-object-fit: cover; /* Safari用 */
+  object-fit: cover; /* 標準 */
+}
